@@ -1,29 +1,39 @@
 # Summit University Website
 
-A responsive static website demo built with HTML, CSS, and vanilla JavaScript. It is suitable for deployment on Vercel, GitHub Pages, or any static hosting service.
+A responsive static university website demonstration built with HTML, CSS, and vanilla JavaScript. Suitable for Vercel, GitHub Pages, or other static hosting.
 
 ## Files
+- `index.html` — landing page, academics, admissions, campus gallery, news, events, FAQs, and contact
+- `styles.css` — responsive styles and student portal styles
+- `script.js` — mobile navigation, theme toggle, programme search and filters, site search, photo lightbox, email-draft helper, and back-to-top button
+- `portal.html` — student dashboard visual prototype
+- `portal.js` — theme toggle and dynamic year for the portal
 
-- `index.html` — homepage and all website sections
-- `styles.css` — responsive layout, typography, and styling
-- `script.js` — mobile navigation, footer year, and demo contact form
+## Features
+- Responsive design and mobile navigation
+- Light/dark mode
+- Website section search
+- Programme category filters and text search
+- Campus photo gallery with image preview
+- News and event sample content
+- FAQ accordion
+- Student portal dashboard preview
+- Contact form validation and email-draft handoff
+- Back-to-top control and accessible form status messages
 
 ## Run locally
-
-Open `index.html` in a browser, or use VS Code with the Live Server extension.
+Open `index.html` in a browser, or use VS Code with the Live Server extension. The student portal preview is `portal.html`.
 
 ## Deploy on Vercel
-
 1. Sign in at https://vercel.com and choose **Add New → Project**.
 2. Import `seiisaac82-dev/summit-university-website` from GitHub.
 3. Select the **Other** framework preset for a static site.
 4. Leave the build command blank. Set the output directory to `.` if prompted.
-5. Deploy.
+5. Deploy. Vercel normally redeploys automatically after new commits to the connected branch.
 
-## Before using this as a real university website
+## Important demo limitations
+Summit University is a demonstration name. Programme names, campus location, news, events, and portal data are examples, not verified official information. Replace them with approved facts before presenting this as a real university website.
 
-This project uses **Summit University** as a demo name. Replace the name, programmes, campus information, contact email, sample news, images, and admissions details with verified information for the actual institution. Make sure you have permission to use any images or logos you add.
+The student portal has no login, database, grades, or real student records. Do not enter private information. The contact form validates fields and opens a draft addressed to `seiisaac82@gmail.com` in the visitor's email app; the visitor must send it themselves. It does not send directly to a server or store submissions. A backend or form service is needed for true online submissions.
 
-The contact form is front-end demonstration only. It does not send or store submissions. Connect a backend or form service before accepting real enquiries.
-
-External images and Google Fonts require an internet connection.
+External images and Google Fonts need an internet connection. Check image permissions before publishing. For a production site, use authorised images, official university details, an official domain, a privacy notice where appropriate, and a secure backend for any real accounts or contact submissions.
