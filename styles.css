@@ -21,3 +21,5 @@ html[data-theme="dark"] .portal-page{background:#111d19;color:#e9eee9}
 html[data-theme="dark"] .portal-card{background:#1b2b25;color:#e9eee9;border-color:#34453e}
 html[data-theme="dark"] .portal-card p,html[data-theme="dark"] .portal-welcome p{color:#aab7af}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+
+.creator-credit{color:#b08a49;font-weight:700;letter-spacing:.04em}html[data-theme="dark"] .creator-credit{color:#d5b16d}
