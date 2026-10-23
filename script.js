@@ -22,16 +22,7 @@ if (menuButton && nav) {
 const year = document.querySelector("#year");
 if (year) year.textContent = new Date().getFullYear();
 
-const form = document.querySelector("#contact-form");
 const feedback = document.querySelector("#feedback");
-if (form && feedback) {
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    if (!form.reportValidity()) return;
-    feedback.textContent = "Thanks! This is a demo form, so your message has not been sent.";
-    form.reset();
-  });
-}
 
 // Dark mode toggle with a saved local preference.
 const root = document.documentElement;
@@ -128,7 +119,6 @@ if (siteSearch) siteSearch.addEventListener("input", renderSiteSearch);
 
 // Email helper: validates the form and opens a draft in the visitor's email app.
 const contactForm = document.querySelector("#contact-form");
-const feedback = document.querySelector("#feedback");
 if (contactForm && feedback) contactForm.addEventListener("submit", event => {
   event.preventDefault();
   if (!contactForm.reportValidity()) return;
