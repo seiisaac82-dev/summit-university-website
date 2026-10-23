@@ -6,3 +6,18 @@
 
 /* Student portal preview */
 .portal-page{min-height:100vh;background:#f5f2eb}.portal-header{background:#203e38;color:white;padding:18px 0}.portal-nav{display:flex;justify-content:space-between;align-items:center;gap:18px}.portal-main{padding:48px 0}.portal-welcome{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:28px}.portal-welcome h1{font-size:42px;margin:0 0 8px}.portal-welcome p{color:#6d7771;margin:0}.demo-label{display:inline-block;padding:7px 10px;background:#f1e2bd;color:#654b1e;font-size:10px;font-weight:700;letter-spacing:.08em}.portal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.portal-card{background:#fffdf8;border:1px solid #e9e5dc;padding:23px}.portal-card h2{font:500 20px var(--serif);margin:0 0 15px}.portal-card p,.portal-card li{font-size:12px;color:#6d7771}.portal-card ul{padding-left:18px}.portal-card li{margin-bottom:10px}.portal-course{display:flex;align-items:center;gap:12px;padding:12px 0;border-top:1px solid #e9e5dc}.course-icon{width:38px;height:38px;background:#f5f2eb;display:grid;place-items:center;color:#a17c3f;font-size:18px}.portal-course b,.portal-course small{display:block}.portal-course b{font-size:12px}.portal-course small{font-size:10px;color:#6d7771}.portal-table{width:100%;border-collapse:collapse;font-size:11px}.portal-table th,.portal-table td{text-align:left;padding:10px 7px;border-bottom:1px solid #e9e5dc}.portal-table th{color:#6d7771;font-weight:600}.portal-footer{padding:24px 0;color:#6d7771;font-size:11px;border-top:1px solid #e9e5dc}.portal-page[data-theme="dark"]{background:#111d19;color:#e9eee9}.portal-page[data-theme="dark"] .portal-card{background:#1b2b25;color:#e9eee9;border-color:#34453e}.portal-page[data-theme="dark"] .portal-card p,.portal-page[data-theme="dark"] .portal-welcome p{color:#aab7af}@media(max-width:850px){.portal-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.portal-main{padding:32px 0}.portal-welcome{align-items:flex-start;flex-direction:column}.portal-welcome h1{font-size:34px}.portal-grid{grid-template-columns:1fr}.portal-nav .brand{font-size:14px}}
+
+/* Accessibility and theme refinements */
+.skip-link{position:absolute;left:12px;top:-100px;background:#d5b16d;color:#172c29;padding:10px 14px;z-index:99}.skip-link:focus{top:12px}
+html[data-theme="dark"] body,html[data-theme="dark"] .header,html[data-theme="dark"] .quick{background:var(--paper);color:var(--ink)}
+html[data-theme="dark"] .academics,html[data-theme="dark"] .faq-section{background:var(--cream)}
+html[data-theme="dark"] .quickgrid>a,html[data-theme="dark"] .stats,html[data-theme="dark"] .faq-list details{border-color:var(--line)}
+html[data-theme="dark"] .form,html[data-theme="dark"] .piclabel,html[data-theme="dark"] .modal{background:var(--card);color:var(--ink)}
+html[data-theme="dark"] .form input,html[data-theme="dark"] .form textarea,html[data-theme="dark"] .form select{background:#14231e;color:var(--ink);border-color:var(--line)}
+html[data-theme="dark"] .filter,html[data-theme="dark"] .search-field{background:var(--card);color:var(--ink);border-color:var(--line)}
+html[data-theme="dark"] .filter.active{background:var(--green);color:white}
+html[data-theme="dark"] .events-panel{background:var(--cream)}
+html[data-theme="dark"] .portal-page{background:#111d19;color:#e9eee9}
+html[data-theme="dark"] .portal-card{background:#1b2b25;color:#e9eee9;border-color:#34453e}
+html[data-theme="dark"] .portal-card p,html[data-theme="dark"] .portal-welcome p{color:#aab7af}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
