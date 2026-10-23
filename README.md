@@ -22,7 +22,7 @@ Open `index.html` in a browser, or use VS Code with the Live Server extension.
 
 ## Before using this as a real university website
 
-This project uses **Summit University** as a demo name. Replace the name, programmes, campus information, placeholder email, sample news, images, and admissions details with verified information for the actual institution. Make sure you have permission to use any images or logos you add.
+This project uses **Summit University** as a demo name. Replace the name, programmes, campus information, contact email, sample news, images, and admissions details with verified information for the actual institution. Make sure you have permission to use any images or logos you add.
 
 The contact form is front-end demonstration only. It does not send or store submissions. Connect a backend or form service before accepting real enquiries.
 
