@@ -124,7 +124,7 @@ if (contactForm && feedback) contactForm.addEventListener("submit", event => {
   if (!contactForm.reportValidity()) return;
   const data = new FormData(contactForm);
   const subject = encodeURIComponent("Summit University enquiry: " + data.get("topic"));
-  const body = encodeURIComponent("Name: " + data.get("name") + "\\nReply email: " + data.get("email") + "\\nTopic: " + data.get("topic") + "\\n\\nMessage:\\n" + data.get("message"));
+  const body = encodeURIComponent("Name: " + data.get("name") + "\nReply email: " + data.get("email") + "\nTopic: " + data.get("topic") + "\n\nMessage:\n" + data.get("message"));
   feedback.textContent = "Opening your email app with a draft. Review it and press Send in your email app.";
   window.location.href = "mailto:seiisaac82@gmail.com?subject=" + subject + "&body=" + body;
 });
