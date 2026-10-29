@@ -1,6 +1,6 @@
-# Nsoatre Technical Institute Website Prototype
+# Nsoatre Technical Institute (NTI) — E-learning Platform
 
-A responsive static website prototype tailored to Nsoatre Technical Institute (NTI), a public technical and vocational institution in Nsoatre, Sunyani West Municipality, Bono Region, Ghana.
+A responsive static website and e-learning resource prototype tailored to Nsoatre Technical Institute (NTI), a public technical and vocational institution in Nsoatre, Sunyani West Municipality, Bono Region, Ghana.
 
 ## Files
 - `index.html` — homepage, school overview, programme areas, admissions guidance, illustrative TVET gallery, public news links, learning hub, FAQs, and contact demo
