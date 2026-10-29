@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://summit-university-website-le1f.vercel.app/sitemap.xml
