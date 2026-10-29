@@ -1,41 +1,28 @@
-# Summit University Website
+# Nsoatre Technical Institute Website Prototype
 
-A responsive static university website demonstration built with HTML, CSS, and vanilla JavaScript. Suitable for Vercel, GitHub Pages, or other static hosting.
+A responsive static website prototype tailored to Nsoatre Technical Institute (NTI), a public technical and vocational institution in Nsoatre, Sunyani West Municipality, Bono Region, Ghana.
 
 ## Files
-- `index.html` — landing page, academics, admissions, campus gallery, news, events, FAQs, and contact
-- `styles.css` — responsive styles and student portal styles
+- `index.html` — homepage, school overview, programme areas, admissions guidance, illustrative TVET gallery, public news links, learning hub, FAQs, and contact demo
+- `styles.css` — responsive design and student portal styles
 - `script.js` — mobile navigation, theme toggle, programme search and filters, site search, photo lightbox, demo contact-form status message, and back-to-top button
-- `portal.html` — student dashboard visual prototype
+- `portal.html` — student dashboard visual prototype (not connected to school systems)
 - `portal.js` — theme toggle and dynamic year for the portal
+- `sitemap.xml` and `robots.txt` — basic search-engine discovery files
 
-## Features
-- Responsive design and mobile navigation
-- Light/dark mode
-- Website section search
-- Programme category filters and text search
-- Campus photo gallery with image preview
-- News and event sample content
-- FAQ accordion
-- Learning hub linking to YouTube educational searches
-- Student portal dashboard preview
-- Premium styling refinements and a learning hub with curated YouTube search links for programming, engineering maths, Arduino, web development, and cybersecurity
-- Contact form demo with clear non-delivery notice
-- Back-to-top control and accessible form status messages
+## Important before presenting this as the official school website
+- This is an independent website prototype, not an official NTI website unless the school approves and adopts it.
+- The public information and programme categories are based on available public listings. Confirm the exact current programmes, entry requirements, fees, dates, and school contact details with NTI.
+- Gallery and programme-card photos are illustrative photos from other Ghanaian TVET settings. They are **not verified photos of Nsoatre Technical Institute**. Replace them with school-authorised photos of the actual campus, workshops, students, and school activities.
+- The student portal is only a visual demo. It has no login, database, grades, attendance, or real student records.
+- The contact form does not send or store submissions. Connect a secure, school-approved service before using it for real enquiries.
+- Check photo permissions, student/guardian consent, and accessibility before publishing.
 
 ## Run locally
-Open `index.html` in a browser, or use VS Code with the Live Server extension. The student portal preview is `portal.html`.
+Open `index.html` in a browser, or use VS Code with Live Server. The portal preview is `portal.html`.
 
 ## Deploy on Vercel
-1. Sign in at https://vercel.com and choose **Add New → Project**.
-2. Import `seiisaac82-dev/summit-university-website` from GitHub.
-3. Select the **Other** framework preset for a static site.
-4. Leave the build command blank. Set the output directory to `.` if prompted.
-5. Deploy. Vercel normally redeploys automatically after new commits to the connected branch.
-
-## Important demo limitations
-Summit University is a demonstration name. Programme names, campus location, news, events, and portal data are examples, not verified official information. Replace them with approved facts before presenting this as a real university website.
-
-The student portal has no login, database, grades, or real student records. Do not enter private information. The public email address has been removed from the website. The contact form is a demo only: it does not send or store submissions. Connect a secure backend or form service before using it for real enquiries.
-
-External images and Google Fonts need an internet connection. Check image permissions before publishing. For a production site, use authorised images, official university details, an official domain, a privacy notice where appropriate, and a secure backend for any real accounts or contact submissions.
+1. Sign in at https://vercel.com and import `seiisaac82-dev/summit-university-website` from GitHub.
+2. Select the **Other** framework preset for a static site.
+3. Leave the build command blank. Set the output directory to `.` if prompted.
+4. Deploy. Vercel normally redeploys after new commits to the connected branch.
