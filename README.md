@@ -17,7 +17,9 @@ A responsive static university website demonstration built with HTML, CSS, and v
 - Campus photo gallery with image preview
 - News and event sample content
 - FAQ accordion
+- Learning hub linking to YouTube educational searches
 - Student portal dashboard preview
+- Premium styling refinements and a learning hub with curated YouTube search links for programming, engineering maths, Arduino, web development, and cybersecurity
 - Contact form demo with clear non-delivery notice
 - Back-to-top control and accessible form status messages
 
