@@ -28,7 +28,7 @@ const feedback = document.querySelector("#feedback");
 const root = document.documentElement;
 const themeToggle = document.querySelector("#theme-toggle");
 let theme = "light";
-try { theme = localStorage.getItem("summit-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"); } catch (_) {}
+try { theme = localStorage.getItem("nti-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"); } catch (_) {}
 function applyTheme(value) {
   root.dataset.theme = value;
   if (themeToggle) {
@@ -40,7 +40,7 @@ applyTheme(theme);
 if (themeToggle) themeToggle.addEventListener("click", () => {
   theme = root.dataset.theme === "dark" ? "light" : "dark";
   applyTheme(theme);
-  try { localStorage.setItem("summit-theme", theme); } catch (_) {}
+  try { localStorage.setItem("nti-theme", theme); } catch (_) {}
 });
 
 // Search and filter the programme cards.
@@ -88,12 +88,13 @@ const searchToggle = document.querySelector("#search-toggle");
 const siteSearch = document.querySelector("#site-search");
 const searchResults = document.querySelector("#search-results");
 const sections = [
-  ["Home", "Welcome to Summit University", "#home", "home welcome"],
-  ["About Summit", "Our purpose and community", "#about", "about mission purpose community"],
+  ["Home", "Welcome to Nsoatre Technical Institute", "#home", "home welcome"],
+  ["About NTI", "School information and training", "#about", "about mission purpose community"],
   ["Academic programmes", "Browse study areas", "#academics", "academics courses programmes programs computing engineering science business"],
   ["Campus life", "Photo gallery", "#campus", "campus life gallery students photos"],
   ["Admissions", "Application steps and enquiries", "#admissions", "admissions apply entry requirements"],
   ["News and events", "Stories and calendar", "#news", "news events stories calendar"],
+  ["Learning hub", "Free videos and practical study resources", "#learning", "learning videos programming electronics mathematics cybersecurity"],
   ["Frequently asked questions", "Answers to common questions", "#faq", "faq questions answers"],
   ["Contact", "Email and contact form", "#contact", "contact email message"]
 ];
