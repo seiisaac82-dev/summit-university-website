@@ -2,7 +2,7 @@
 
 A responsive static website and e-learning resource prototype tailored to Nsoatre Technical Institute (NTI), a public technical and vocational institution in Nsoatre, Sunyani West Municipality, Bono Region, Ghana.
 
-## Files
+## Search visibility\n- Homepage title and description use the full name “Nsoatre Technical Institute (NTI) E-learning Platform”.\n- `sitemap.xml` lists the homepage and student portal preview; submit it through Google Search Console after verifying site ownership.\n- Search engines decide when and whether to index pages, so appearing for the full name is not immediate or guaranteed.\n\n## Files
 - `index.html` — homepage, school overview, programme areas, admissions guidance, illustrative TVET gallery, public news links, learning hub, FAQs, and contact demo
 - `styles.css` — responsive design and student portal styles
 - `script.js` — mobile navigation, theme toggle, programme search and filters, site search, photo lightbox, demo contact-form status message, and back-to-top button
