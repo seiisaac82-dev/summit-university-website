@@ -117,16 +117,13 @@ if (searchToggle && searchDialog) searchToggle.addEventListener("click", () => {
 });
 if (siteSearch) siteSearch.addEventListener("input", renderSiteSearch);
 
-// Email helper: validates the form and opens a draft in the visitor's email app.
+// Demo contact form: no email is published and submissions are not sent or stored.
 const contactForm = document.querySelector("#contact-form");
 if (contactForm && feedback) contactForm.addEventListener("submit", event => {
   event.preventDefault();
   if (!contactForm.reportValidity()) return;
-  const data = new FormData(contactForm);
-  const subject = encodeURIComponent("Summit University enquiry: " + data.get("topic"));
-  const body = encodeURIComponent("Name: " + data.get("name") + "\nReply email: " + data.get("email") + "\nTopic: " + data.get("topic") + "\n\nMessage:\n" + data.get("message"));
-  feedback.textContent = "Opening your email app with a draft. Review it and press Send in your email app.";
-  window.location.href = "mailto:seiisaac82@gmail.com?subject=" + subject + "&body=" + body;
+  feedback.textContent = "Thanks for trying the demo. This form is not connected to a messaging service, so your message has not been sent or stored.";
+  contactForm.reset();
 });
 
 // Back-to-top button.
